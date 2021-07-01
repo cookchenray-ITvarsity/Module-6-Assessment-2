@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+/*==========LOGO==========*/
+
+#logo-img img{
+    width: 100;
+    height: 100;
+
+    
+}
+/*==========MENU==========*/
+
+#menu{
+    background-color: black;
+    height: 100%;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display:inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 50px;
+    color: #ffffff;
+    
+    padding: 0 40px;
+    border: none;
+    display: block;
+}
+
+#menu a:hover{
+    background-color: darkgrey;
+}
+
+/*==========MENU-HEADER==========*/
+#menu-header ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu-header li{
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 35px;
+    color: white;
+    background-color: dimgray;
+}
+/*==========INTRO==========*/
+
+#intro p{
+    text-align: center;
+    color:black;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+/*==========CONTENT==========*/
+#content h1{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#content p{
+    color: white;
+}
+#car-display img{
+    width: 100%;
+    height: 50%;
+}
+
+/*==========FORM==========*/
+
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color: grey;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px 0;
+    padding: 8px 0;
+}
+#flying marquee img {
+ width: 40%;
+    transition-delay: 3s;
+
+}
+#flying marquee{
+    transition:  0.4s ;
+}
